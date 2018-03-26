@@ -1,32 +1,34 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+src/*.exe
+src/newcoin
+src/newcoind
+src/test_newcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
 *.o
-*.obj
+*.patch
+.newcoin
 
-# Precompiled Headers
-*.gch
-*.pch
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+newcoin-qt
+Newcoin-Qt.app
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Unit-tests
+Makefile.test
+newcoin-qt_test
 
-# Fortran module files
-*.mod
-*.smod
+# Resources cpp
+qrc_*.cpp
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Qt creator
+*.pro.user
 
-# Executables
-*.exe
-*.out
-*.app
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
