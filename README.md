@@ -49,7 +49,7 @@ completely stable. [Tags](https://github.com/newcoin-project/newcoin/tags) are c
 regularly to indicate new official, stable release versions of Newcoin.
 
 Testing
-
+-------
 
 Testing and code review is the bottleneck for development; we get more pull
 requests than we can review and test. Please be patient and help out, and
